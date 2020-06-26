@@ -7,7 +7,7 @@
 
 /* Style the navigation bar links */
 .navbar a {
-  display: block; /* Change the display to block, for responsive reasons (see below) */
+  display: inline;
   color: DimGray; /* White text color */
   padding: 14px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
