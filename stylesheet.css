@@ -2,6 +2,7 @@
 .navbar {
   overflow: hidden; /* Hide overflow */
   background-color: #FFFFFF; /* white background color */
+  text-align: center;
 }
 
 /* Style the navigation bar links */
