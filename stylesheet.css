@@ -6,6 +6,7 @@
 
 /* Style the navigation bar links */
 .navbar a {
+  float: center;
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: DimGray; /* White text color */
   text-align: center; /* Center the text */
