@@ -6,20 +6,16 @@
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
+  float: center; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
+  color: DimGray; /* White text color */
   text-align: center; /* Center the text */
   padding: 14px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
 }
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right; /* Float a link to the right */
-}
-
 .header {
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #7FFF00;
+  background-color: #FFFFFF;
+  color: DimGray
 }
