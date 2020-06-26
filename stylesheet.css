@@ -6,7 +6,6 @@
 
 /* Style the navigation bar links */
 .navbar a {
-  float: center; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: DimGray; /* White text color */
   text-align: center; /* Center the text */
@@ -18,4 +17,5 @@
   font-family: 'Josefin Sans', sans-serif;
   background-color: #FFFFFF;
   color: DimGray
+  text-align: center;
 }
