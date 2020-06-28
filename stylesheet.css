@@ -30,6 +30,7 @@
   margin: 0 auto;
   display: grid;
   grid-gap: 1rem;
+  text-align: center
 }
 .gallery-img {
     width: 100%;
