@@ -1,3 +1,4 @@
+
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
@@ -31,27 +32,26 @@
   display: grid;
   grid-gap: 1rem;
   text-align: center
+
 }
-.gallery-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+    .gallery-img {
+    max-width: 100%
 }
 
 @media (min-width: 600px) {
   .gallery { grid-template-columns: repeat(2, 1fr); }
-  .gallery-img {
-    width: 25%;
-    height: 25%;
-    object-fit: cover;
+    .gallery-img {
+    max-width: 100%
 }
+
+    
 }
 
 @media (min-width: 900px) {
   .gallery { grid-template-columns: repeat(3, 1fr); }
     .gallery-img {
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
+    max-width: 100%
 }
+
 }
