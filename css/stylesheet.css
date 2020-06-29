@@ -49,14 +49,28 @@ label {
     font-family: 'Josefin Sans', sans-serif;
     
 }
-form{
-    
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: black;
+    border: none;
+    color: white;
+    width: 25%;
+    padding: 10px 32px;
+    margin: 10px 2px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
 }
+
 input{
     width: 100%;
     background-color: gainsboro;
+    outline: none;
     
 }
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
 
 /* Style the top navigation bar */
 .navbar {
