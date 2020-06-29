@@ -1,0 +1,88 @@
+/* General */
+
+.header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  background-color: #FFFFFF;
+  color: DimGray;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: DimGray;
+    text-align: center;
+     
+} 
+
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #FFFFFF; /* white background color */
+  text-align: center;
+  padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  display: inline;
+  color: DimGray; /* White text color */
+  padding: 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+
+
+.gallery {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  text-align: center
+
+}
+
+.gallery-img {
+    max-width: 100%
+}
+
+@media (min-width: 600px) {
+    .gallery { grid-template-columns: repeat(2, 1fr);
+        padding-left: 100;
+        padding-right: 100
+    
+    }
+    .gallery-img {
+        max-width: 100%
+    
+    }
+
+}
+
+@media (min-width: 900px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    .gallery-img {
+        max-width: 100%
+    }
+
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: DimGray;
+    text-align: center;
+     
+}
