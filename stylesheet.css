@@ -4,14 +4,15 @@
   overflow: hidden; /* Hide overflow */
   background-color: #FFFFFF; /* white background color */
   text-align: center;
-  padding: 5px;
+  padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 /* Style the navigation bar links */
 .navbar a {
   display: inline;
   color: DimGray; /* White text color */
-  padding: 14px 20px; /* Add some padding */
+  padding: 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
@@ -24,6 +25,7 @@
   color: DimGray;
   text-align: center;
   padding-top: 20px;
+
 }
 
 .gallery {
@@ -40,7 +42,9 @@
 }
 
 @media (min-width: 600px) {
-  .gallery { grid-template-columns: repeat(2, 1fr); }
+  .gallery { grid-template-columns: repeat(2, 1fr);
+    padding-left: 100;
+    padding-right: 100}
     .gallery-img {
     max-width: 100%
 }
