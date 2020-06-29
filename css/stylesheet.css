@@ -19,7 +19,25 @@ h1 {
      
 } 
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+li {
+  text-align: center;
+    
+}
+
+/*li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+*/
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
@@ -39,7 +57,9 @@ h1 {
   font-weight: 300;
 }
 
-
+.navbar a:hover {
+    color: black
+}
 
 
 .gallery {
@@ -54,6 +74,7 @@ h1 {
 .gallery-img {
     max-width: 100%
 }
+
 
 @media (min-width: 600px) {
     .gallery { grid-template-columns: repeat(2, 1fr);
@@ -78,11 +99,3 @@ h1 {
 
 }
 
-h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    background-color: #FFFFFF;
-    color: DimGray;
-    text-align: center;
-     
-}
