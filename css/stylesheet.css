@@ -1,14 +1,15 @@
 /* General */
 
-.header {
+.maintitle {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   background-color: #FFFFFF;
   color: DimGray;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
 
 }
+
 
 p {
     font-family: 'Josefin Sans', sans-serif;
@@ -25,6 +26,7 @@ h1 {
     background-color: #FFFFFF;
     color: DimGray;
     text-align: center;
+    margin-bottom: 10;
      
 } 
 
@@ -64,6 +66,8 @@ input{
     width: 100%;
     background-color: gainsboro;
     outline: none;
+    border: none;
+
     
 }
 
@@ -77,7 +81,7 @@ input[type=text]:focus {
   overflow: hidden; /* Hide overflow */
   background-color: #FFFFFF; /* white background color */
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
     padding-top: 10px;
 }
 
