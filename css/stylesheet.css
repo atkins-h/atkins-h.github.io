@@ -1,17 +1,22 @@
 /* General */
 
-.maintitle {
+header {
+    padding-bottom: 10px
+}
+
+
+#header-title {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   background-color: #FFFFFF;
   color: DimGray;
   text-align: center;
-  padding-top: 20px;
+  padding: 20 0 5 0;
 
 }
 
 main{
-    margin: 0 20%;
+    margin: 0 10%;
     align-content: center;
 }
 
@@ -21,7 +26,7 @@ footer{
     background-color: #FFFFFF;
     color:gainsboro;
     text-align: center;
-    padding-top: 20;    
+    padding: 20 0 20 0;    
 }
 
 p {
@@ -32,13 +37,25 @@ p {
     text-align: center;
     
 }
+#pricing-text{
+    text-align: justify;
+        margin: 0 0 20 0;
+}
+
+a{
+    text-decoration: none
+}
+
+a:hover{
+    color: black;
+}
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     background-color: #FFFFFF;
     color: DimGray;
     text-align: center;
-    margin-bottom: 10;
+    margin: 0 0 0 0;
      
 } 
 
@@ -48,14 +65,14 @@ h1 {
 
 }
 
-.text-container{
+.page-container{
     width: 100%;
     text-align: left;
-    padding-top: 5;
+    padding: 0;
 
 }
-.pricing-image{
-    width: 75%
+#pricing-image{
+    width: 100%
         
 }
 label {
@@ -71,19 +88,18 @@ input[type=button], input[type=submit], input[type=reset] {
     border: none;
     color: white;
     width: 25%;
-    padding: 10px 32px;
+    padding: 10px 0px;
     margin: 10px 2px;
     cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
 }
 
 input{
     width: 100%;
     background-color: gainsboro;
     outline: none;
-    border: none;
-
-    
+    border: none;    
 }
 
 input[type=text]:focus {
@@ -101,7 +117,7 @@ input[type=text]:focus {
 }
 
 /* Style the navigation bar links */
-.navbar a {
+.navbar-links {
   display: inline;
   color: DimGray; /* White text color */
   padding: 20px; /* Add some padding */
@@ -110,17 +126,18 @@ input[type=text]:focus {
   font-weight: 300;
 }
 
-.navbar a:hover {
+.navbar-links:hover {
     color: black
 }
 
 
 .gallery {
-  max-width: 100%;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 1rem;
-  text-align: center
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    text-align: center
 
 }
 
@@ -151,4 +168,5 @@ input[type=text]:focus {
     }
 
 }
+
 
