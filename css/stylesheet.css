@@ -115,6 +115,7 @@ input[type=text]:focus {
     text-align: left;
     background: gainsboro;
     border: none;
+    max-width: 100%;
     
 }
 
