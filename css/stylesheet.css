@@ -61,7 +61,7 @@ h1 {
 
 .form-container{
     text-align: center;
-    padding: 10 30%;
+    padding: 10 15%;
 
 }
 
@@ -87,9 +87,9 @@ input[type=button], input[type=submit], input[type=reset] {
     background-color: black;
     border: none;
     color: white;
-    width: 25%;
+    width: 100%;
     padding: 10px 0px;
-    margin: 10px 2px;
+    margin: 20px 0px;
     cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
@@ -106,6 +106,14 @@ input[type=text]:focus {
   border: 3px solid #555;
 }
 
+#message {
+    height: 100px;
+    width: 100%;
+    text-align: left;
+    background: gainsboro;
+    border: none;
+    
+}
 
 /* Style the top navigation bar */
 .navbar {
@@ -144,8 +152,6 @@ input[type=text]:focus {
 .gallery-img {
     max-width: 100%
 }
-
-
 
 
 @media (min-width: 600px) {
