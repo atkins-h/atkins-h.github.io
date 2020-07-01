@@ -61,7 +61,10 @@ h1 {
 
 .form-container{
     text-align: center;
-    padding: 10 15%;
+    padding: 10px 15% 10px 15%  ;
+    width: 100%;
+    max-width: 500px;
+    
 
 }
 
