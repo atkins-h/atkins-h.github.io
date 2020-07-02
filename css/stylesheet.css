@@ -37,6 +37,7 @@ p {
     color: black;
     text-align: center;
     width: 100% ;
+    font-size: 14;
     
     
 }
@@ -176,7 +177,10 @@ input[type=text]:focus {
     .gallery-img {
         max-width: 100%
     }
-
+    p{
+        font-size: 18;
+    }
+    
 }
 
 
