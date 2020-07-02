@@ -12,6 +12,7 @@ header {
   color: DimGray;
   text-align: center;
   padding: 20 0 5 0;
+    width: 100%
 
 }
 
@@ -20,7 +21,7 @@ main{
     align-content: center;
 }
 
-footer{
+footer p{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 200;
     background-color: #FFFFFF;
@@ -35,6 +36,8 @@ p {
     background-color: #FFFFFF;
     color: black;
     text-align: center;
+    width: 100% ;
+    
     
 }
 #pricing-text{
@@ -60,14 +63,13 @@ h1 {
 } 
 
 .form-container{
-    width: 100%;
+    width: 500px;
 }
 
 .page-container{
     width: 100%;
     text-align: left;
-    padding: 0;
-    margin: 0 20% 0 20%;
+
 
 }
 #pricing-image{
