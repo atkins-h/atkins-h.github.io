@@ -43,7 +43,8 @@ p {
 }
 #pricing-text{
     text-align: justify;
-        margin: 0 0 20 0;
+        max-width: 600px;
+    display: inline-block;
 }
 
 a{
@@ -69,12 +70,12 @@ h1 {
 
 .page-container{
     width: 100%;
-    text-align: left;
-
-
+    align-items: center;
+    text-align: center;
 }
 #pricing-image{
-    width: 100%
+    width: 100%;
+    max-width: 600px;
         
 }
 label {
@@ -148,7 +149,8 @@ input[type=text]:focus {
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
-    text-align: center
+    text-align: center;
+    padding: 0 5% 0 5%
 
 }
 
@@ -160,7 +162,7 @@ input[type=text]:focus {
 @media (min-width: 600px) {
     .gallery { grid-template-columns: repeat(2, 1fr);
         padding-left: 100;
-        padding-right: 100
+        padding-right: 100;
     
     }
     .gallery-img {
@@ -173,6 +175,8 @@ input[type=text]:focus {
 @media (min-width: 900px) {
     .gallery {
         grid-template-columns: repeat(3, 1fr); 
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .gallery-img {
         max-width: 100%
@@ -182,5 +186,3 @@ input[type=text]:focus {
     }
     
 }
-
-
